@@ -23,7 +23,7 @@
 		A529535D1E1CC2040061BA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A529535B1E1CC2040061BA9C /* LaunchScreen.storyboard */; };
 		A52953681E1CC2040061BA9C /* SleepStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52953671E1CC2040061BA9C /* SleepStudyTests.swift */; };
 		A52953731E1CC2040061BA9C /* SleepStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52953721E1CC2040061BA9C /* SleepStudyUITests.swift */; };
-		A54E53211E1E3033006A5013 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E53201E1E3033006A5013 /* UIViewController+Navigation.swift */; };
+		E5430D901E2E00A700C5A249 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5430D8F1E2E00A700C5A249 /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		A529536E1E1CC2040061BA9C /* SleepStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52953721E1CC2040061BA9C /* SleepStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStudyUITests.swift; sourceTree = "<group>"; };
 		A52953741E1CC2040061BA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A54E53201E1E3033006A5013 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../PilotPlant/Sources/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		E5430D8F1E2E00A700C5A249 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 				A518BD451E277AD200E31FBD /* FIlters.swift */,
 				A518BD461E277AD200E31FBD /* NavigationControllers.swift */,
 				A518BD471E277AD200E31FBD /* RecordButton.swift */,
-				A54E53201E1E3033006A5013 /* UIViewController+Navigation.swift */,
+				E5430D8F1E2E00A700C5A249 /* UIViewController+Navigation.swift */,
 				A52953521E1CC2040061BA9C /* AppDelegate.swift */,
 				A52953541E1CC2040061BA9C /* ViewController.swift */,
 				A52953561E1CC2040061BA9C /* Main.storyboard */,
@@ -290,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A518BD4B1E277AD200E31FBD /* CHPagingScrollViewController.swift in Sources */,
-				A54E53211E1E3033006A5013 /* UIViewController+Navigation.swift in Sources */,
 				A518BD481E277AD200E31FBD /* CHContentViewController.swift in Sources */,
 				A518BD4F1E277AD200E31FBD /* NavigationControllers.swift in Sources */,
 				A518BD491E277AD200E31FBD /* CHControls.swift in Sources */,
@@ -300,6 +299,7 @@
 				A518BD501E277AD200E31FBD /* RecordButton.swift in Sources */,
 				A518BD4E1E277AD200E31FBD /* FIlters.swift in Sources */,
 				A518BD4A1E277AD200E31FBD /* CHModalViewController.swift in Sources */,
+				E5430D901E2E00A700C5A249 /* UIViewController+Navigation.swift in Sources */,
 				A518BD4C1E277AD200E31FBD /* CHPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
